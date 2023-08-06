@@ -1,0 +1,183 @@
+.ul {
+	display: flex;
+	margin-left: auto;
+	list-style: none;
+}
+.li {
+	margin: 10px;
+}
+section{
+	padding: 50px 0;
+}
+.url {
+	color: #E4E4E4;
+	text-decoration: none;
+	margin-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.home {
+	color: #00C4F0;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.mi {
+	display: flex;
+}
+.logo {
+	width: 100px;
+	object-fit: cover;
+}
+header {
+	background-color: #2C2C2C;
+}
+.burger {
+	width: 79px;
+	height: 84px;
+	background-color: transparent;
+	border: none;
+	display: none;
+	margin-left: auto;
+}
+.burgerline {
+	background-color: #D9D9D9;
+	height: 18px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.secta {
+	background-color: #00C4F0;
+}
+.zag {
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+h1 {
+ text-align: center;
+ margin-top: 100px;
+}
+.but {
+	background-color: #E2A300;
+	height: 50px;
+}
+.umenia {
+text-decoration: none;
+}
+.zag2 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.ul1 {
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.progress {
+	background-color: grey;
+	height: 15px;
+	width: 400px;
+}
+.progress1 {
+background-color: yellow;
+	height: 15px;
+	width: 340px;
+}
+.um {
+	margin-left: 39px;
+	font-family: 'Montserrat', sans-serif;
+}
+.abra {
+	display: flex;
+	margin-bottom: 50px;
+}
+.abra1 {
+	width: 500px;
+	margin-left: auto;
+}
+.secta1 {
+	background-color: #00C4F0;
+}
+footer {
+	background-color: #2C2C2C;
+	color: #00C4F0;
+}
+.vid {
+	margin: 0 auto;
+	width: 57%;
+}
+.textvideo {
+	font-family: 'Montserrat', sans-serif;
+}
+.secta2 {
+	background-color: #00C4F0;
+}
+.gal {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	gap: 10px;
+}
+
+.secta3 {
+	background-color: #00C4F0;
+}
+.lightzoom{
+	width: 45%;
+}
+.im {
+	width: 100%;
+}
+.buthome {
+	position: fixed;
+	top: 0;
+	right: 100;
+	bottom: 0;
+	left: 0;
+}
+.conteiner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.foote {
+	display: flex;
+}
+.soc {
+	height: 50%;
+	margin: auto 0 auto auto;
+}
+
+@media (max-width: 834px){
+	.conteiner{
+		width: 622px;
+	}
+	.ul {	
+		display: none;
+	}
+	.burger {
+		display: block;
+	}
+	.zag {
+		flex-direction: column;
+	}
+	.abra {
+		flex-direction: column;
+		align-items: center;
+	}
+	.abra1 {
+		width: 467px;
+		margin: 0;
+	}
+	.secta2 {
+		display: none;
+	}
+	
+
+}
+.button-block {
+	display: flex;
+	justify-content: center;
+}
+body {
+	margin: 0;
+}
